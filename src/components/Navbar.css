@@ -1,0 +1,25 @@
+.navbar{
+    background-color:rgb(237, 250, 187);
+}
+.navbar ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    list-style-type: none;
+}
+.navbar ul li{
+    padding: 6px;
+    margin: 0px 6px 0px 6px;
+    text-decoration: none;
+}
+.navitem{
+    text-decoration: none;
+    color: grey;
+    font-family:cursive;
+    font-weight: bold;
+}
+.navitem:hover{
+    text-decoration: underline;
+}
+
