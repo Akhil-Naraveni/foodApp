@@ -1,35 +1,11 @@
 import React from "react";
 import { BrowserRouter as Router, Route, Routes, Link } from "react-router-dom";
 import { motion } from "framer-motion";
+import About from "./About";
+import Cart from "./Cart";
+import Profile from "./Profile";
+
 import "./Navbar.css"
-// Sample pages
-const Home = () => (
-    <div className="maindiv">
-    <h1 className="heading"> Home</h1>
-    <p className="para">Come lets dive into out tasty journey..</p>
-  </div>
-);
-
-const About = () => (
-  <div className="maindiv">
-    <h1 className="heading">About Us</h1>
-    <p className="para">Learn more about our mission and values.</p>
-  </div>
-);
-
-const Cart = () => (
-  <div className="maindiv">
-    <h1 className="heading">Your Cart</h1>
-    <p className="para">Here are the items you've added to your cart.</p>
-  </div>
-);
-
-const Profile = () => (
-  <div className="maindiv">
-    <h1 className="heading">Your Profile</h1>
-    <p className="para">Manage your account details here.</p>
-  </div>
-);
 
 const Navbar = () => {
   return (
@@ -44,7 +20,6 @@ const Navbar = () => {
           </ul>
         </nav>
         <Routes>
-          <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
           <Route path="/cart" element={<Cart />} />
           <Route path="/profile" element={<Profile />} />

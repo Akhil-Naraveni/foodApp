@@ -1,0 +1,14 @@
+.header{
+    background-color: rgb(74, 69, 62);
+    height: 200px;
+    background-image: 
+    linear-gradient(to right, rgb(74, 69, 62) 25%, rgba(255, 255, 255, 0)), 
+    url("https://img.freepik.com/free-photo/flat-lay-thanksgiving-food-border-assortment-with-copy-space_23-2149114449.jpg?ga=GA1.1.196235938.1738434109&semt=ais_hybrid");
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 75%;
+    background-size: auto;
+}
+.header-text{
+    width: 40%;
+}
